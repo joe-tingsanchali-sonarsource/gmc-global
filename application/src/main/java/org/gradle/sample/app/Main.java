@@ -7,7 +7,7 @@ import static org.gradle.sample.utilities.StringUtils.split;
 import static org.gradle.sample.app.MessageUtils.getMessage;
 
 public class Main {
-    public String getGreeting() {
+    public static String getGreeting() {
         return "Hello world.";
     }
 
