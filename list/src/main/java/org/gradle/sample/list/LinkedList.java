@@ -3,6 +3,10 @@ package org.gradle.sample.list;
 public class LinkedList {
     private Node head;
 
+    private String getGreeting() {
+        return "Hello world.";
+    }
+
     public void add(String element) {
         Node newNode = new Node(element);
 
@@ -12,6 +16,8 @@ public class LinkedList {
         } else {
             it.next = newNode;
         }
+
+        System.out.println(getGreeting());
     }
 
     private static Node tail(Node head) {
