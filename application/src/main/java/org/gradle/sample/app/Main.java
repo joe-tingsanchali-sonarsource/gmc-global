@@ -16,6 +16,6 @@ public class Main {
         tokens = split(getMessage());
 
         System.out.println(join(tokens));
-        System.out.println(new App().getGreeting());
+        System.out.println(getGreeting());
     }
 }
