@@ -17,5 +17,7 @@ public class Main {
 
         System.out.println(join(tokens));
         System.out.println(getGreeting());
+
+        System.out.println(getGreeting());
     }
 }
