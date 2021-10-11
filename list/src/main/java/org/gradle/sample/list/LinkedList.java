@@ -39,7 +39,7 @@ public class LinkedList {
                 break;
             }
         }
-
+        System.out.println(getGreeting());
         return result;
     }
 
